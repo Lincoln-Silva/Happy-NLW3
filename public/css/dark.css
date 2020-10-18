@@ -1,0 +1,28 @@
+* {
+    color: #ddd;
+
+}
+
+body {
+    color: black;
+    background: #111;
+}
+
+
+aside.sidebar {
+    background: #DC143C;
+  }
+  
+  aside.sidebar footer button {
+    background: 	#FF4500;
+    
+  }
+  
+  aside.sidebar footer button:hover {
+    background: lime;
+    
+  }
+  
+  form {      
+    background: rgb(160, 160, 160);
+  }

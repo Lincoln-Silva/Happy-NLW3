@@ -28,11 +28,15 @@
     <link rel="stylesheet" href="/css/form.css" />
     <link rel="stylesheet" href="/css/buttons.css" />
     <link rel="stylesheet" href="/css/page-create-orphanage.css" />
+      
+      <!--  <link rel="stylesheet" href="/css/dark.css" 
+        media="(prefers-color-scheme: dark)" /> -->
 
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+
   </head>
 
   <body>
@@ -78,6 +82,11 @@
             <div class="input-block">
               <label for="whatsapp">Número de WhatsApp</label>
               <input id="whatsapp" name="whatsapp" required />
+            </div>
+
+            <div class="input-block">
+              <label for="site">Site</label>
+              <input id="site" name="site" placeholder="Cole o link do site" type="url" />
             </div>
 
             <div class="input-block images">
@@ -136,14 +145,38 @@
               <div class="button-select">
                 <button data-value="1" type="button" onclick="toggleSelect(event)" class="active">Sim</button>
                 <button data-value="0" type="button" onclick="toggleSelect(event)">Não</button>
+
+                
               </div>
 
+             <!-- <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+              <dark-mode-toggle appearance="toggle"
+                light = "Day"
+                dark = "Night" 
+                ></dark-mode-toggle> -->
+
+                  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script> 
+
+
+           
               <button type="submit" class="primary-button">Confirmar</button>
             </div>
+
           </fieldset>
+            
         </form>
       </main>
+
     </div>
+    
     <script src="/scripts/page-create-orphanage.js"></script>
+
+
   </body>
 </html>
