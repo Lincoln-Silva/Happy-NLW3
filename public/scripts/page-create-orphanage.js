@@ -93,4 +93,6 @@ function validade(event) {
   alert('Selecione um ponto no mapa')
   }
   
+  
 }
+

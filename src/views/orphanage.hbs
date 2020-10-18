@@ -76,6 +76,9 @@
           <p>{{orphanage.instructions}}
           </p>
 
+          <p>{{orphanage.site}}
+          </p>
+
           <div class="open-details">
             <div class="hour">
               <img src="/images/clock.svg" alt="Horários" />
@@ -109,6 +112,16 @@
     </main>
   </div>
   <script src="/scripts/page-orphanage.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script> 
+
+
 </body>
 
 </html>
