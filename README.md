@@ -92,12 +92,13 @@
 
 <h2 align="center">License 📝</h2>
 
+
 <p align="center">
    This repository is under MIT license.
 </p>
 
    ---
 
-   >This project was developed by **[@Lincoln Silva](https://www.linkedin.com/in/lincoln-silva-b561aa1b9/)**, with the instructor **[@MaykBrito](https://linkedin.com/in/maykbrito)**, during the **[Next Level Week](https://rocketseat.com.br/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** . <br> 
+   >This project was developed by **[@Lincoln Silva](https://www.linkedin.com/in/lincoln-silva-b561aa1b9/)** during the **[Next Level Week](https://rocketseat.com.br/)** of **[Rocketseat](https://www.linkedin.com/school/rocketseat/about/)** . <br> 
    If it helped you, give it ⭐, it will help me too 😉 
 
